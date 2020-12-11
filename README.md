@@ -4,7 +4,7 @@ A bare-bones skeleton repo for experimenting with the D3 library, assisted via t
 
 ## Installation
 
-Assuming you have node installed, you can just run
+With node installed, you may run:
 
 ```console
 npm install
@@ -14,12 +14,12 @@ to install all dependencies.
 
 ## Usage
 
-To start a simple web server with hot reload, enter
+To start a simple web server with hot reload, run:
 
 ```console
 npm start
 ```
 
-Next, visit [http://localhost:8080](http://localhost:8080) to view the outcome (I've added a horizontal bar chart for testing).
+Next, visit [http://localhost:8080](http://localhost:8080) to view the output. A boilerplate bar chart has been created for demonstration.
 
 In `index.ts`, the function `createChart` is called when the document is loaded. This is where you can toy around with your D3 code.
